@@ -1,0 +1,7 @@
+1. At line 12, the final value of i is printed which is 3 because i is declared as a var, hence it can be accessed anywhere in the function including outside of the loop. So i is equal to prices.length after the loop finishes which is 3.
+2. At line 13, the final value of discountedPrice is printed which is 150 since it is declared as a var so the variable is accessible outside of the loop in the function. discountedPrice is equal to the last iteration of the for loop which would be 300 * (1 - 0.5) = 150.
+3. At line 14, the final value of finalPrice is printed which is 150 since it is declared as a var it the variable is accessible anywhere in the function. finalPrice is is reassigned in the loop, so the value of finalPrice is the last iteration of the loop which is 150.
+4. This function will return the discounted with discounted prices because the function iterates through the prices array, then pushes each price as a discounted price into the discounted array.
+5. At line 12, there will be an error since it is trying to access i which is a let variable, trying to access outside of the block it is declared in so it is not defined. Hence, i only exists in the for loop it is declared in.
+6. At line 13, there will be an error since it is trying to access discountedPrice which is a let variable, trying to access outside of the block it is declared in so it is not defined. Hence, discountedPrice only exists in the for loop it is declared in.
+7. 
