@@ -21,11 +21,11 @@
     e. true + 3 = 4 since + converts true to 1, hence 1 + 3 = 4\
     f. false + null = 0 since false converts to 0 and null converts to 0, hence 0 + 0 = 0\
     g. '3' + undefined = '3undefined' since + converts undefined to a string since '3' is a string operand, hence '3' + 'undefined' = '3undefined'\
-    h. '3' - undefined = Nan since both variables are converted to numbers, but 3 + Nan = Nan\
+    h. '3' - undefined = Nan since both variables are converted to numbers, but 3 + Nan = Nan
 14. a. '2' > 1 = true since '2' becomes a number, hence 2 > 1 is true\
     b. '2' < '12' = false since the first char of '12' is less than '2'\
     c. 2 == '2' = true since they equal each other only\
     d. 2 === '2' = false since they are different types\
     e. true == 2 = false since boolean true becomes 1 which is not equal to 2\
-    f. true === Boolean(2) = true since Boolean(2) converts to true since any non-zero number is true\
-16. The difference between the == and === operators are that == essentially nonstrictly checks if two values equal each other after converting to a common type and === stritly checks if two values equal each other including a type check.
+    f. true === Boolean(2) = true since Boolean(2) converts to true since any non-zero number is true
+15. The difference between the == and === operators are that == essentially nonstrictly checks if two values equal each other after converting to a common type and === stritly checks if two values equal each other including a type check.
