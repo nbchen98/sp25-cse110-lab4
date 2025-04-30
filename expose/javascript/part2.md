@@ -30,3 +30,4 @@
     f. true === Boolean(2) = true since Boolean(2) converts to true since any non-zero number is true
 15. The difference between the == and === operators are that == essentially nonstrictly checks if two values equal each other after converting to a common type and === stritly checks if two values equal each other including a type check.
 17. The reuslt would be [2, 4, 6] because when the function is called, an empty array is declared, then the a loop iterates through the length of the input array, for each element in the array it calls the callback function which is doSomething which multiplies the element by 2 and adds value to the declared array, after iterating through the whole input array, it returns the new array.
+19. The output is 1, 4, 3, 2 because 1 and 4 are printed immediately, then 3 is printed with 0ms delay, and then 2 is printed after 1000ms delay.
