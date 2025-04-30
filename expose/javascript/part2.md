@@ -13,7 +13,7 @@
     b. student["Grad Year"]\
     c. student.greeting()\
     d. student["Favorite Teacher"].name\
-    e. student.courseLoad[0]\
+    e. student.courseLoad[0]
 13. a. '3' + 2 = '32' since the + with a string and number turns the output into a string\
     b. '3' - 2 = 1 since the - converts operands to numbers hence '3' becomes a number\
     c. 3 + null = 3 since null becomes 0 after numeric conversion\
